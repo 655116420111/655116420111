@@ -1,1 +1,43 @@
+#include<stdio.h>
+ int main()
+ { int a,b,c;
+  printf("enter first number a:");
+  scanf("%d",&a);
+ printf("enter second number b:");
+ scanf("%d",&b");
+ printf("1.addition\n2.substraction\n3.multiplication4.divide\n");
+ printf("enter your choice");
+switch(choice)
+{ case'1':
+  c=a+b;
+  					printf("addition is %d",c);
+						break;
+ case'2':
+ c=a-b;
+   printf("substraction is %d",c);
+		break;
+ case'3':
+  c=a*b;
+  printf("multiplication is %d",c);
+		break;
+case'4':
+   c=a%b;
+ { if(b=0)
+  { printf("return value is undifine");
+    } 
+ else
+{ pirntf("remender is %d",c);
+ } 
+  break;
+} 
+}
+ default:
+  printf("enter number is invalid.enter again.");
+  break;
+ return 0;
+} 
+
+
+
+
 
